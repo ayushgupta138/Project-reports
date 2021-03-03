@@ -12,12 +12,18 @@
 \usepackage{forest}
 \usepackage{graphicx}
 
-\title{\textbf{\underline{CSN-232 Reading Assignment-1}}}
+\title{
+\textbf{\underline{Indian Institute of Technology, Roorkee}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{IITR_new_logo_color.jpg}
+\end{figure}
+\textbf{\underline{CSN-232 Reading Assignment-1}}}
 \author{
 \textbf{Ayush Gupta,19114017} \\
 }
 \date{3 March 2021}
-
 \begin{document}
 
 \maketitle
@@ -53,23 +59,8 @@
            \item Linux for System Z
        \end{enumerate}
        \iffalse
-       https://www.wisdomjobs.com/e-university/ibm-mainframe-tutorial-464/characteristic-features-of-mainframe-operating-systems-13539.html
-       http://digitalthinkerhelp.com/mainframe-computer-definition-with-their-example-types-and-uses/
-       https://en.wikipedia.org/wiki/Mainframe_computer*/
-       https://www.ibm.com/support/knowledgecenter/zosbasics/com.ibm.zos.zmainframe/zconc_opsysintro.htm
        
-       https://www.guru99.com/operating-system-tutorial.html
-       
-       https://en.wikipedia.org/wiki/Multiprocessor_system_architecture
-       https://ecomputernotes.com/fundamental/disk-operating-system/multiprocessor-operating-system#:~:text=Multiprocessor%20Operating%20System%20refers%20to,memory%20and%20other%20peripheral%20devices.&text=In%20this%20system%20processor%20is%20assigned%20a%20specific%20task.
-       https://www.guru99.com/process-synchronization.html#:~:text=Process%20Synchronization%20is%20the%20task,same%20shared%20data%20and%20resources.&text=So%20the%20change%20made%20by,accessed%20the%20same%20shared%20data.
-       https://ieeexplore.ieee.org/document/5470386
-       http://digitalthinkerhelp.com/what-is-multiprocessor-operating-system-and-its-examples/#:~:text=Examples%20for%20Symmetric%20Multiprocessor%20%E2%80%93%20Windows,%2C%20OS%2F2%20%26%20Linux.
-       
-       https://blog.stackpath.com/distributed-system/#:~:text=A%20distributed%20system%2C%20also%20known,system%20to%20the%20end%2Duser.
-       https://www.geeksforgeeks.org/features-of-distributed-operating-system/
-       https://en.wikipedia.org/wiki/Distributed_operating_system#:~:text=A%20distributed%20operating%20system%20is,the%20global%20aggregate%20operating%20system.
-       http://digitalthinkerhelp.com/distributed-operating-system-tutorial-with-their-types-examples/
+      
        \fi
     
     \section{\underline{Desktop Systems}}  
@@ -90,7 +81,6 @@
     \subsection{Examples of some Desktop Systems OS}
      \begin{enumerate}
          \item Windows
-         \item Android 
          \item iOS
          \item Mac OS
          \item Linux
@@ -179,4 +169,101 @@ To make a cluster operating system function efficiently, there exists two cluste
 \begin{enumerate}
     \item Oracle Clusterware
 \end{enumerate}
+\section{\underline{Real Time Systems}}
+Real time systems are the systems that process the data as they come in without any significant delay. Processing must be done within the defined constraints or the system will fail.
+\subsection{Features of Real Time OS}
+\begin{enumerate}
+    \item \textbf{Scheduling :} Scheduling tasks is extremely critical here since the system fails if there is a significant delay in output. Most tasks are blocked or ready most of the time because generally only one task can run at a time per CPU. The number of items in the ready queue can vary greatly, depending on the number of tasks the system needs to perform and the type of scheduler that the system uses.
+    \item \textbf{Reliability :} A Real Time OS must be reliable and must be able to function properly for a long time without human intervention .Reliability also means the configuration to enable the system to choose the right or most profitable action for current operations.
+    \item \textbf{Predictability :} A system must execute actions within a known time frame and produce known results. Such results are determined by the procedures or operations taking place. The determination is by targets set during production or procedural planning.
+    \item \textbf{Scalability :} The needs of any production or event environment change with time. This means that a system may require an upgrade or downgrade. Such provisions must be made during design and installation of any Real Time OS.
+\end{enumerate}
+\subsection{Examples of Real Time OS}
+\begin{enumerate}
+    \item PSOS
+    \item VRTX
+    \item RT Linux
+    \item Lynx
+\end{enumerate}
+\section{\underline{Handheld Systems}}
+\subsection{Introduction}
+A handheld is primarily designed to provide a suite of computing, communication and informational tools in a device about the size of standard palm. Typically, handheld devices are not as powerful as a computer, but modern handhelds increasingly include powerful dual-core processors, RAM, SD storage capacity, an operating system, and native and add-on applications.
+\subsection{Properties of Handheld OS}
+\begin{enumerate}
+    \item \textbf{Less Use of Resources :} Since handheld OS are designed to run on machines that have lower speed processors and less memory,they are designed to used less memory and require fewer resources.
+    \item \textbf{Compatibility :} Unlike Desktop systems, Handheld systems can have a wide variety of hardware architecture, hence a Handheld OS must be compatible with large number of hardware architecture.
+    \item \textbf{Reduced Flexibility :} Unlike desktop systems, what a user can do with a handheld device is very limited, hence note very flexible.
+\end{enumerate}
+\subsection{Examples of Handheld OS}
+\begin{enumerate}
+    \item Palm OS
+    \item Pocket PC
+    \item Symbian OS
+    \item Android
+\end{enumerate}
+\section{\underline{References and Links}}
+\subsection{Mainframe OS}
+\begin{enumerate}
+    \item \url{https://www.wisdomjobs.com/e-university/ibm-mainframe-tutorial-464/characteristic-features-of-mainframe-operating-systems-13539.html}
+    \item \url{http://digitalthinkerhelp.com/mainframe-computer-definition-with-their-example-types-and-uses/}
+    \item \url{https://en.wikipedia.org/wiki/Mainframe_computer}
+    \item \url{https://www.ibm.com/support/knowledgecenter/zosbasics/com.ibm.zos.zmainframe/zconc_opsysintro.htm}
+\end{enumerate}
+\subsection{Desktop OS}
+\begin{enumerate}
+    \item \url{https://www.guru99.com/operating-system-tutorial.html}
+\end{enumerate}
+\subsection{Multiprocessor OS}
+\begin{enumerate}
+    \item \url{https://en.wikipedia.org/wiki/Multiprocessor_system_architecture}
+    \item \url{https://ecomputernotes.com/fundamental/disk-operating-system/multiprocessor-operating-system#:~:text=Multiprocessor%20Operating%20System%20refers%20to,memory%20and%20other%20peripheral%20devices.&text=In%20this%20system%20processor%20is%20assigned%20a%20specific%20task.}
+    \item \url{https://www.guru99.com/process-synchronization.html#:~:text=Process%20Synchronization%20is%20the%20task,same%20shared%20data%20and%20resources.&text=So%20the%20change%20made%20by,accessed%20the%20same%20shared%20data.}
+    \item \url{ https://ieeexplore.ieee.org/document/5470386}
+    \item \url{http://digitalthinkerhelp.com/what-is-multiprocessor-operating-system-and-its-examples/#:~:text=Examples%20for%20Symmetric%20Multiprocessor%20%E2%80%93%20Windows,%2C%20OS%2F2%20%26%20Linux.}
+\end{enumerate}
+\subsection{Distributed OS}
+\begin{enumerate}
+    \item \url{https://blog.stackpath.com/distributed-system/#:~:text=A%20distributed%20system%2C%20also%20known,system%20to%20the%20end%2Duser.}
+    \item \url{https://www.geeksforgeeks.org/features-of-distributed-operating-system/}
+    \item \url{https://en.wikipedia.org/wiki/Distributed_operating_system#:~:text=A%20distributed%20operating%20system%20is,the%20global%20aggregate%20operating%20system.}
+    \item \url{http://digitalthinkerhelp.com/distributed-operating-system-tutorial-with-their-types-examples/}
+\end{enumerate}
+\subsection{Clustered OS}
+\begin{enumerate}
+    \item \url{ http://digitalthinkerhelp.com/what-is-clustered-operating-system-os-definition-types-advantages/}
+\end{enumerate}
+\subsection{Real Time OS}
+\begin{enumerate}
+    \item \url{https://en.wikipedia.org/wiki/Real-time_operating_system#:~:text=A%20real%2Dtime%20system%20is,%2Ddriven%20or%20time%2Dsharing.}
+    \item \url{ https://www.ques10.com/p/21552/what-are-the-different-characteristics-of-rtos/}
+    \item \url{ https://www.intervalzero.com/rtos/4-types-of-popular-real-time-operating-systems/}
+\end{enumerate}
+\subsection{Handheld OS}
+\begin{enumerate}
+    \item \url{https://www.studytonight.com/operating-system/types-of-os#:~:text=Handheld%20systems%20include%20Personal%20Digital,and%20feature%20small%20display%20screens.}
+\end{enumerate}
 \end{document}
+
+       
+       
+       
+       
+       
+       
+    
+       
+      
+  
+       
+       
+      
+       
+      
+       
+      
+       
+       
+      
+      
+       
+       
